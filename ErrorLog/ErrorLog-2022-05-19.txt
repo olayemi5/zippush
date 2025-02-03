@@ -1,0 +1,229 @@
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:10:47 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:11:36 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: 'System.String'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadToken(String token)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 68
+StackTrace Date :5/19/2022 9:12:26 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:12:42 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 9:13:07 AM
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Procedure or function Proc_ccms_comp_detail2 has too many arguments specified.
+StackTrace Date :5/19/2022 9:13:08 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:37:06 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:37:27 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:41:07 AM
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :5/19/2022 9:57:38 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 9:57:53 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :5/19/2022 10:03:41 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 10:04:07 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 10:04:47 AM
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Procedure or function Proc_ccms_comp_detail2 has too many arguments specified.
+StackTrace Date :5/19/2022 10:04:47 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 10:07:01 AM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 10:07:02 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'System.Text.StringBuilder'.
+Exceptions caught:
+ 'System.Text.StringBuilder'.
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :5/19/2022 10:07:30 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 10:07:44 AM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 10:07:45 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 10:08:06 AM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 10:08:08 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 10:08:46 AM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 10:08:46 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 10:09:50 AM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 10:09:51 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :System.ArgumentException: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'. ---> Microsoft.IdentityModel.Json.JsonReaderException: Unexpected character encountered while parsing value: Ș. Path '', line 0, position 0.
+   at Microsoft.IdentityModel.Json.JsonTextReader.ParseValue()
+   at Microsoft.IdentityModel.Json.JsonTextReader.Read()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Microsoft.IdentityModel.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Microsoft.IdentityModel.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at System.IdentityModel.Tokens.Jwt.JsonExtensions.DeserializeJwtHeader(String jsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   --- End of inner exception stack trace ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadToken(String token)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 68
+StackTrace Date :5/19/2022 10:10:05 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :5/19/2022 10:10:15 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :5/19/2022 10:10:20 AM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :5/19/2022 10:10:24 AM
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :5/19/2022 10:10:54 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 10:35:11 AM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :5/19/2022 4:51:10 PM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 4:53:04 PM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 4:53:04 PM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :5/19/2022 4:54:02 PM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :5/19/2022 4:54:03 PM
+
+--------------------------------------------------------------------------
+

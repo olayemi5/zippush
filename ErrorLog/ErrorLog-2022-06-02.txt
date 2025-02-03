@@ -1,0 +1,103 @@
+Exception AuthenticateAsync: :System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at WebApi.Jwt.Filters.JwtAuthenticationAttribute.<AuthenticateAsync>d__6.MoveNext() in C:\Users\ayodeji.olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Filters\JwtAuthenticationAttribute.cs:line 28
+StackTrace Date :6/2/2022 4:26:59 PM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Invalid Track Number.
+StackTrace Date :6/2/2022 4:26:59 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:27:50 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:27:56 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:28:16 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:28:16 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:28:25 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:28:25 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:28:34 PM
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :6/2/2022 4:28:34 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:30:14 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:30:14 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:30:17 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:30:17 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:30:23 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:30:23 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:33:05 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:42:24 PM
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :6/2/2022 4:42:44 PM
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :6/2/2022 4:42:47 PM
+
+--------------------------------------------------------------------------
+

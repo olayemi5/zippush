@@ -1,0 +1,15 @@
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :3/18/2021 9:03:25 AM
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :3/18/2021 9:11:24 AM
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 1111 Successfully Inserted.
+StackTrace Date :3/18/2021 9:11:25 AM
+
+--------------------------------------------------------------------------
+

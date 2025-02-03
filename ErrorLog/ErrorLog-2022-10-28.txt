@@ -1,0 +1,165 @@
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :28/10/2022 18:08:33
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :28/10/2022 18:08:33
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :28/10/2022 18:08:46
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :28/10/2022 18:08:46
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :28/10/2022 18:11:53
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :28/10/2022 18:12:42
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :28/10/2022 18:13:04
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :28/10/2022 18:15:51
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :28/10/2022 18:15:52
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :28/10/2022 18:17:44
+
+--------------------------------------------------------------------------
+
+Exception AgentAuthenticator: :System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Proc_AgentSetupDetails' expects parameter '@ClientId', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at CCMSAutomationAPI.Controllers.TokenController.AgentAuthenticator(String clientId) in C:\Users\Ayodeji.Olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Controllers\TokenController.cs:line 181
+ClientConnectionId:70f4de56-2f77-4803-979a-f81f39d6e6fb
+Error Number:201,State:4,Class:16
+StackTrace Date :28/10/2022 18:17:45
+
+--------------------------------------------------------------------------
+
+Exception GetToken: :Authenication Error/Unauthorised Access
+StackTrace Date :28/10/2022 18:17:45
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync: :System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at WebApi.Jwt.Filters.JwtAuthenticationAttribute.<AuthenticateAsync>d__6.MoveNext() in C:\Users\Ayodeji.Olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Filters\JwtAuthenticationAttribute.cs:line 28
+StackTrace Date :28/10/2022 18:18:11
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :28/10/2022 18:18:11
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Error converting data type nvarchar to datetime.
+StackTrace Date :28/10/2022 18:18:11
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync: :System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at WebApi.Jwt.Filters.JwtAuthenticationAttribute.<AuthenticateAsync>d__6.MoveNext() in C:\Users\Ayodeji.Olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Filters\JwtAuthenticationAttribute.cs:line 28
+StackTrace Date :28/10/2022 18:18:47
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :28/10/2022 18:18:48
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Error converting data type nvarchar to numeric.
+StackTrace Date :28/10/2022 18:18:48
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync: :System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at WebApi.Jwt.Filters.JwtAuthenticationAttribute.<AuthenticateAsync>d__6.MoveNext() in C:\Users\Ayodeji.Olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Filters\JwtAuthenticationAttribute.cs:line 28
+StackTrace Date :28/10/2022 18:21:54
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :28/10/2022 18:21:54
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Invalid object name 'ccms_comp_detail3'.
+StackTrace Date :28/10/2022 18:21:55
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync: :System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at WebApi.Jwt.Filters.JwtAuthenticationAttribute.<AuthenticateAsync>d__6.MoveNext()
+StackTrace Date :28/10/2022 18:34:33
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :28/10/2022 18:34:33
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Conversion failed when converting the varchar value 'sample string 1' to data type int.
+StackTrace Date :28/10/2022 18:34:34
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync: :System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at WebApi.Jwt.Filters.JwtAuthenticationAttribute.<AuthenticateAsync>d__6.MoveNext()
+StackTrace Date :28/10/2022 18:35:39
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :28/10/2022 18:35:39
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 555 Successfully Inserted.
+StackTrace Date :28/10/2022 18:35:42
+
+--------------------------------------------------------------------------
+

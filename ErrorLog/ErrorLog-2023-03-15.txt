@@ -1,0 +1,125 @@
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :15/03/2023 09:56:46
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :15/03/2023 09:56:48
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 09:58:12
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 39460 Successfully Inserted.
+StackTrace Date :15/03/2023 09:58:35
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 09:59:04
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Conversion failed when converting the varchar value '394R60' to data type int.
+StackTrace Date :15/03/2023 09:59:05
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 09:59:37
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :Conversion failed when converting the varchar value '394R60' to data type int.
+StackTrace Date :15/03/2023 09:59:37
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 10:00:00
+
+--------------------------------------------------------------------------
+
+Exception InsertRequest StackMe:: :A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+StackTrace Date :15/03/2023 10:39:53
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :15/03/2023 10:40:38
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :15/03/2023 10:40:38
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\Ayodeji.Olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :15/03/2023 10:41:05
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 10:41:25
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 1 Successfully Inserted.
+StackTrace Date :15/03/2023 10:41:47
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal: :Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token, String clientId) in C:\Users\Ayodeji.Olukowi\Downloads\CCMSAutomationAPI1\CCMSAutomationAPI\Models\JwtManager.cs:line 83
+StackTrace Date :15/03/2023 10:57:02
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :15/03/2023 10:57:08
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :15/03/2023 10:57:08
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 10:57:35
+
+--------------------------------------------------------------------------
+
+Exception AuthenticateAsync:    ddddd:help
+StackTrace Date :15/03/2023 11:02:53
+
+--------------------------------------------------------------------------
+
+GetToken Notifications: :Access token generated successfully.
+StackTrace Date :15/03/2023 11:02:54
+
+--------------------------------------------------------------------------
+
+SqlCommand: :1
+StackTrace Date :15/03/2023 11:03:21
+
+--------------------------------------------------------------------------
+
+Insert Notifications: :Track Number: 394R60 Successfully Inserted.
+StackTrace Date :15/03/2023 11:03:24
+
+--------------------------------------------------------------------------
+

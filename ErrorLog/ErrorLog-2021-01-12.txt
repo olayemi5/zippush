@@ -1,0 +1,20 @@
+GetToken Notifications:  Access token generated successfully.
+StackTrace Date :1/12/2021 4:29:04 PM
+
+--------------------------------------------------------------------------
+
+Exception GetPrincipal:  Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CCMSAutomationAPI.Models.JwtManager.GetPrincipal(String token) in C:\Projects\CCMSAutomationAPI\Models\JwtManager.cs:line 80
+StackTrace Date :1/12/2021 4:30:05 PM
+
+--------------------------------------------------------------------------
+
+Insert Notifications:  Track Number: 1234 Successfully Inserted.
+StackTrace Date :1/12/2021 4:30:17 PM
+
+--------------------------------------------------------------------------
+
